@@ -1,0 +1,98 @@
+body/*the extension outline*/
+{
+    height: 350px;
+    width: 250px;
+    margin: 15px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.header/*specifies the heading in extension WORKWIZARD*/
+{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter-container/*box dimensions and design for detection of total dark pattern*/
+{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    flex-direction: column;
+}
+#extension_name
+{
+    flex: 1;
+    font-size: 15px;
+    text-align: center;
+    align-self: center;
+    font-weight: bold;
+    color: white;
+}
+#calculateBtn/*design for the calculation of hidden cost box*/
+{
+    height: 40px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#num1/*design for input box for calculating the hidden cost*/
+{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    flex-direction: column; 
+}
+#result/*font displaying the result of hidden cost calculation*/
+{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+#logo
+{
+    width: 48px;
+    height: 48px;
+}
+#count/*font design of dark pattern count*/
+{
+    font-weight: bold;
+}
+#collapsibleCategory
+{
+    width: 100%;
+    display: none;
+}
+.link/*article link*/
+{
+    color: blue;
+}
+
